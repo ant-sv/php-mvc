@@ -1,0 +1,6 @@
+<?
+
+class core_model
+{
+    
+}
