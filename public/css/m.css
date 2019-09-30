@@ -3,8 +3,8 @@ body {
 }
 
 hr {
-	display: block;
-	height: 1px;
+    display: block;
+    height: 1px;
     border: 0;
     border-top: 1px solid #FFF;
 }
@@ -55,17 +55,14 @@ button:focus {
 }
 
 .jumbotron {
-	padding: 2rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .accordion .btn-link {
     color: #17255A;
 }
 
-.accordion .btn-link:hover {
-    text-decoration: none;
-}
-
+.accordion .btn-link:hover,
 .accordion .btn-link:focus {
     text-decoration: none;
 }
