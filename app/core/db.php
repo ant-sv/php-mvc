@@ -51,7 +51,7 @@ class core_db
     }
 }
 
-/* usage
+/* source: https://phpdelusions.net/pdo/pdo_wrapper
 
 # Table creation
 DB::query("CREATE temporary TABLE pdowrapper (id int auto_increment primary key, name varchar(255))");
