@@ -1,0 +1,113 @@
+body {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+hr {
+	display: block;
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #FFF;
+}
+
+button:focus {
+    outline:0;
+}
+
+.mycolor {
+    background-color: #4d367b;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: color .25s ease-in;
+    color: #FFF;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #F1E56E;
+}
+
+.company-info .row div:first-child {
+    font-weight: 600;
+}
+
+.mdb-color.lighten-2 {
+    background-color: #17255A!important;
+}
+
+.navbar-toggler {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.navbar-toggler-icon {
+    width: auto;
+    line-height: 1.5em;
+}
+
+.jumbotron {
+	padding: 2rem 1rem;
+}
+
+.accordion .btn-link {
+    color: #17255A;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+}
+
+.accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+.btn-logo {
+    background-color: #F1E56E;
+}
+
+.af {
+    height: 4rem;
+    line-height: 4rem;
+    transition: height .5s;
+    overflow-y: hidden;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.admin-mode {
+    top: 0;
+    right: 0;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.navbar-toggler-icon {
+    font-size: 1rem;
+}
+
+.table .btn-link {
+    line-height: 1rem;
+}
+
+/*
+table td {
+    vertical-align: middle;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Обзор";
+}
+*/
