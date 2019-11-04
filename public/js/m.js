@@ -252,10 +252,8 @@ function Ready() {
             	clearTimeout(timeout);
             else
             	clickNum = 0;
-
-            clickNum++;
-
-            if (clickNum === 10) {
+            
+            if (clickNum++ === 10) {
 
                 try {
 
@@ -271,7 +269,8 @@ function Ready() {
                 return;
             }
 
-        	timeout = setTimeout(function() { timeout = false; }, 1000);
+        timeout = setTimeout(function() { timeout = false; }, 1000);
+
         }
     }
 }
