@@ -231,8 +231,7 @@ function Ready() {
                 e.target.removeEventListener('click', clickEvent);
                 return;
             }
-        timeout = setTimeout(function() { timeout = false; }, 1000);
-
+            timeout = setTimeout(function() { timeout = false; }, 1000);
         }
     }
 }
